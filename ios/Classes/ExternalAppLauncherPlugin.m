@@ -1,17 +1,15 @@
-#import "LaunchexternalappPlugin.h"
+#import "ExternalAppLauncherPlugin.h"
 
-@implementation LaunchexternalappPlugin
+@implementation ExternalAppLauncherPlugin
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
   FlutterMethodChannel* channel = [FlutterMethodChannel
-      methodChannelWithName:@"launch_vpn"
+      methodChannelWithName:@"external_app_launcher"
             binaryMessenger:[registrar messenger]];
-  LaunchexternalappPlugin* instance = [[LaunchexternalappPlugin alloc] init];
+  ExternalAppLauncherPlugin* instance = [[ExternalAppLauncherPlugin alloc] init];
   [registrar addMethodCallDelegate:instance channel:channel];
 }
 
-
 - (void)handleMethodCall:(FlutterMethodCall*)call result:(FlutterResult)result {
-
   if ([@"getPlatformVersion" isEqualToString:call.method]) {
     result([@"iOS " stringByAppendingString:[[UIDevice currentDevice] systemVersion]]);
   } else
@@ -46,8 +44,6 @@
   } else {
     result(FlutterMethodNotImplemented);
   }
- 
 }
 
 @end
-
