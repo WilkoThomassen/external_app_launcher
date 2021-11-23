@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/launchexternalapp.iml" filepath="$PROJECT_DIR$/launchexternalapp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/android/launchexternalapp_android.iml" filepath="$PROJECT_DIR$/android/launchexternalapp_android.iml" />
-      <module fileurl="file://$PROJECT_DIR$/example/android/launchexternalapp_example_android.iml" filepath="$PROJECT_DIR$/example/android/launchexternalapp_example_android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/external_app_launcher.iml" filepath="$PROJECT_DIR$/external_app_launcher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android/external_app_launcher_android.iml" filepath="$PROJECT_DIR$/android/external_app_launcher_android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example/android/external_app_launcher_example_android.iml" filepath="$PROJECT_DIR$/example/android/external_app_launcher_example_android.iml" />
     </modules>
   </component>
 </project>

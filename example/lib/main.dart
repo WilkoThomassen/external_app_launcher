@@ -37,8 +37,7 @@ class _MyAppState extends State<MyApp> {
                   await LaunchApp.openApp(
                     androidPackageName: 'net.pulsesecure.pulsesecure',
                     iosUrlScheme: 'pulsesecure://',
-                    appStoreLink:
-                        'itms-apps://itunes.apple.com/us/app/pulse-secure/id945832041',
+                    appStoreLink: 'itms-apps://itunes.apple.com/us/app/pulse-secure/id945832041',
                     // openStore: false
                   );
                   // Enter thr package name of the App you want to open and for iOS add the URLscheme to the Info.plist file.
